@@ -151,4 +151,3 @@ void Plot_::operator()()
 }
 
 //black blue green red orange cyan violet gray
-//
