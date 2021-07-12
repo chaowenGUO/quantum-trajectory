@@ -153,3 +153,4 @@ void asymptotic(Oscillator_ const&Oscillator)
   for(auto const Marker:boost::adaptors::stride(boost::combine(boost::make_iterator_range(ActionVariable.GetX(),std::next(ActionVariable.GetX(),ActionVariable.GetN())),boost::make_iterator_range(ActionVariable.GetY(),std::next(ActionVariable.GetY(),ActionVariable.GetN()))),50)) dynamic_cast<TMarker*>(TMarker{boost::get<0>(Marker),boost::get<1>(Marker),8}.DrawClone())->SetMarkerSize(0.7);
   canvas.Print((File+".pdf").data());
 }*/
+//
